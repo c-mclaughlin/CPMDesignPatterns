@@ -28,6 +28,7 @@ namespace Facade
             ss.SurroundSoundStateChanged += new SurroundSoundStateChangedEventHandler(ss_SurroundSoundStateChanged);
             dvd.DVDStateChanged += new DVDStateChangedEventHandler(dvd_DVDStateChanged);
             gs.GameStateChanged += new GameStateChangedEventHandler(gs_GameStateChanged);
+            UpdateControls();
 
         }
 
@@ -61,37 +62,20 @@ namespace Facade
 
         }
 
-        private void TVPowerState_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+
 
         private void PowerBtn_Click(object sender, EventArgs e)
         {
-            tv.Start();
+            tv.m_State = TV.TVPowerState.on;
+            //tv.Start();
             ss.m_SSState = SurroundSound.SoundState.low;
         }
 
-        private void TVInputState_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-      
-
-        private void DVDPowerState_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GamePowerState_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void PowerBtn2_Click(object sender, EventArgs e)
         {
-            tv.Stop();
+            tv.m_State = TV.TVPowerState.off;
+            //tv.Stop();
             ss.m_SSState = SurroundSound.SoundState.off;
             dvd.m_DVDState = DVD.DVDState.off;
             gs.m_GameState = Game.GameState.off;
@@ -105,10 +89,6 @@ namespace Facade
             gs.m_GameState = Game.GameState.off;
         }
 
-        private void SoundState_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void DVDBtn_Click(object sender, EventArgs e)
         {

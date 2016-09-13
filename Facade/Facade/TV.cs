@@ -42,7 +42,7 @@ namespace Facade
                     TVStateChanged(this, new EventArgs());
             }
         }
-        public bool Start()
+        /*public bool Start()
         {
             m_State = TVPowerState.on;
             return true;
@@ -51,6 +51,6 @@ namespace Facade
         {
             m_State = TVPowerState.off;
             return true;
-        }
+        }*/
     }
 }

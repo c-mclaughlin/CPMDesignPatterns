@@ -66,7 +66,7 @@
             this.TVInputState.ReadOnly = true;
             this.TVInputState.Size = new System.Drawing.Size(100, 20);
             this.TVInputState.TabIndex = 1;
-            this.TVInputState.TextChanged += new System.EventHandler(this.TVInputState_TextChanged);
+            
             // 
             // TVPowerState
             // 
@@ -75,7 +75,7 @@
             this.TVPowerState.ReadOnly = true;
             this.TVPowerState.Size = new System.Drawing.Size(100, 20);
             this.TVPowerState.TabIndex = 0;
-            this.TVPowerState.TextChanged += new System.EventHandler(this.TVPowerState_TextChanged);
+      
             // 
             // SurroundSounds
             // 
@@ -94,7 +94,7 @@
             this.SoundState.ReadOnly = true;
             this.SoundState.Size = new System.Drawing.Size(100, 20);
             this.SoundState.TabIndex = 1;
-            this.SoundState.TextChanged += new System.EventHandler(this.SoundState_TextChanged);
+          
             // 
             // DVDPlayer
             // 
@@ -113,7 +113,7 @@
             this.DVDPowerState.ReadOnly = true;
             this.DVDPowerState.Size = new System.Drawing.Size(100, 20);
             this.DVDPowerState.TabIndex = 1;
-            this.DVDPowerState.TextChanged += new System.EventHandler(this.DVDPowerState_TextChanged);
+            
             // 
             // GameSystem
             // 
@@ -132,7 +132,7 @@
             this.GamePowerState.ReadOnly = true;
             this.GamePowerState.Size = new System.Drawing.Size(100, 20);
             this.GamePowerState.TabIndex = 1;
-            this.GamePowerState.TextChanged += new System.EventHandler(this.GamePowerState_TextChanged);
+          
             // 
             // PowerBtn
             // 
