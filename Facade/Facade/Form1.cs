@@ -16,6 +16,8 @@ namespace Facade
         SurroundSound ss;
         DVD dvd;
         Game gs;
+        ConcreteProduct concreteProduct;
+        Factory factory;
 
         public Remote()
         {
@@ -24,6 +26,8 @@ namespace Facade
             ss = new SurroundSound();
             dvd = new DVD();
             gs = new Game();
+            concreteProduct = new ConcreteProduct();
+            factory = new ConcreteFactory();
             tv.TVStateChanged += new TVStateChangedEventHandler(tv_TVStateChanged);
             ss.SurroundSoundStateChanged += new SurroundSoundStateChangedEventHandler(ss_SurroundSoundStateChanged);
             dvd.DVDStateChanged += new DVDStateChangedEventHandler(dvd_DVDStateChanged);
@@ -69,6 +73,7 @@ namespace Facade
             tv.m_State = TV.TVPowerState.on;
             //tv.Start();
             ss.m_SSState = SurroundSound.SoundState.low;
+            factory.MakeSettings(tv.m_State, tv.m_InputState, ss.m_SSState, dvd.m_DVDState, gs.m_GameState);
         }
 
 
@@ -79,6 +84,7 @@ namespace Facade
             ss.m_SSState = SurroundSound.SoundState.off;
             dvd.m_DVDState = DVD.DVDState.off;
             gs.m_GameState = Game.GameState.off;
+            factory.MakeSettings(tv.m_State, tv.m_InputState, ss.m_SSState, dvd.m_DVDState, gs.m_GameState);
         }
 
         private void CableBtn_Click(object sender, EventArgs e)
@@ -87,6 +93,7 @@ namespace Facade
             ss.m_SSState = SurroundSound.SoundState.low;
             dvd.m_DVDState = DVD.DVDState.off;
             gs.m_GameState = Game.GameState.off;
+            factory.MakeSettings(tv.m_State, tv.m_InputState, ss.m_SSState, dvd.m_DVDState, gs.m_GameState);
         }
 
 
@@ -96,6 +103,7 @@ namespace Facade
             dvd.m_DVDState = DVD.DVDState.on;
             gs.m_GameState = Game.GameState.off;
             ss.m_SSState = SurroundSound.SoundState.medium;
+            factory.MakeSettings(tv.m_State, tv.m_InputState, ss.m_SSState, dvd.m_DVDState, gs.m_GameState);
         }
 
         private void GameBtn_Click(object sender, EventArgs e)
@@ -104,6 +112,7 @@ namespace Facade
             gs.m_GameState = Game.GameState.on;
             dvd.m_DVDState = DVD.DVDState.off;
             ss.m_SSState = SurroundSound.SoundState.loud;
+            factory.MakeSettings(tv.m_State, tv.m_InputState, ss.m_SSState, dvd.m_DVDState, gs.m_GameState);
         }
     }
 }

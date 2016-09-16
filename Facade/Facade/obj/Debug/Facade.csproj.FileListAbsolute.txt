@@ -7,3 +7,4 @@ c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Facade\Facade\bi
 c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Facade\Facade\bin\Debug\Facade.pdb
 c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Facade\Facade\obj\Debug\Facade.exe
 c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Facade\Facade\obj\Debug\Facade.pdb
+C:\Users\Corey McLaughlin\Documents\Visual Studio 2015\Projects\Facade\Facade\obj\Debug\Facade.Product.resources
