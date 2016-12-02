@@ -1,0 +1,9 @@
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\bin\Debug\Template Method.exe.config
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\bin\Debug\Template Method.exe
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\bin\Debug\Template Method.pdb
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\obj\Debug\Template Method.csprojResolveAssemblyReference.cache
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\obj\Debug\Template_Method.Form1.resources
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\obj\Debug\Template_Method.Properties.Resources.resources
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\obj\Debug\Template Method.csproj.GenerateResource.Cache
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\obj\Debug\Template Method.exe
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Template Method\Template Method\obj\Debug\Template Method.pdb
