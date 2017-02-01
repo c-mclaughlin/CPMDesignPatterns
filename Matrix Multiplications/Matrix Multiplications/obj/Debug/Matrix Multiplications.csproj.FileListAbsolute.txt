@@ -1,0 +1,6 @@
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Matrix Multiplications\Matrix Multiplications\bin\Debug\Matrix Multiplications.exe.config
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Matrix Multiplications\Matrix Multiplications\bin\Debug\Matrix Multiplications.exe
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Matrix Multiplications\Matrix Multiplications\bin\Debug\Matrix Multiplications.pdb
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Matrix Multiplications\Matrix Multiplications\obj\Debug\Matrix Multiplications.csprojResolveAssemblyReference.cache
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Matrix Multiplications\Matrix Multiplications\obj\Debug\Matrix Multiplications.exe
+c:\users\corey mclaughlin\documents\visual studio 2015\Projects\Matrix Multiplications\Matrix Multiplications\obj\Debug\Matrix Multiplications.pdb
